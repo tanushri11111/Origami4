@@ -1,0 +1,184 @@
+h1 {
+    color: white;
+    margin-left: 30px;
+    border: solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* {
+    border: solid;
+}*/
+.header{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: cyan;
+    border: solid;
+}
+.menu{
+    margin-left: 1070px;
+    
+}
+
+h2,p{
+   
+    color : #057505
+}
+body{
+    background-color: white;
+}
+
+.Camel{
+    margin-top: 70px;
+  
+}
+.Chameleon{
+    margin-top: 70px;
+   margin-left: 60px;
+}
+.Pigeon{
+    margin-top: 70px;
+    margin-left: 60px;
+}
+.Bear{
+    margin-top: 70px;
+    margin-left: 80px;
+}
+.Panda{
+    margin-top: 70px;
+  
+}
+.Cicada{
+    margin-top: 70px;
+    margin-left: 80px;
+}
+.grid img{
+    border:2px solid black;
+    border-radius: 25%;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Back p{
+    position :absolute;
+    top : 10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color: red;
+}
+.Back h3{
+    position :absolute;
+    top : 30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color : white;
+    justify-content: center;
+    text-align: center;
+}
+
+.Camel {
+    position:relative;
+}
+.Camel p{
+    position: absolute;
+    top:25%;
+    left:40%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.Camel:hover p{
+opacity: 1;
+}
+.Camel:hover img{
+opacity: 0.4;
+}
+
+
+.Chameleon {
+    position:relative;
+}
+.Chameleon p{
+    position: absolute;
+    top:25%;
+    left:40%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.Chameleon:hover p{
+opacity: 1;
+}
+.Chameleon:hover img{
+opacity: 0.4;
+}
+
+.Pigeon {
+    position:relative;
+}
+.Pigeon p{
+    position: absolute;
+    top:25%;
+    left:40%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.Pigeon:hover p{
+opacity: 1;
+}
+.Pigeon:hover img{
+opacity: 0.4;
+}
+
+.Bear {
+    position:relative;
+}
+.Bear p{
+    position: absolute;
+    top:25%;
+    left:30%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.Bear:hover p{
+opacity: 1;
+}
+.Bear:hover img{
+opacity: 0.4;
+}
+
+.Panda {
+    position:relative;
+}
+.Panda p{
+    position: absolute;
+    top:25%;
+    left:40%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.Panda:hover p{
+opacity: 1;
+}
+.Panda:hover img{
+opacity: 0.4;
+}
+
+
+.Cicada {
+    position:relative;
+}
+.Cicada p{
+    position: absolute;
+    top:25%;
+    left:30%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.Cicada:hover p{
+opacity: 1;
+}
+.Cicada:hover img{
+opacity: 0.4;
+}
